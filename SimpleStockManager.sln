@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStockManager", "SimpleStockManager\SimpleStockManager.csproj", "{ECBF2F5E-E217-4D4B-89EF-F7F9989E738F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStockManager.core", "SimpleStockManager.core\SimpleStockManager.core.csproj", "{22DF70BB-24A2-4C62-9D59-988B75107016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Core", "0.Core", "{F3073CD3-FEFA-4B1E-8EF1-4F7C2923B603}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Execute", "1.Execute", "{DCCFDB0F-6B05-4181-9189-2E0CD3FCD510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStockManager.Executer", "SimpleStockManager.Executer\SimpleStockManager.Executer.csproj", "{C532E8F2-8FC6-4932-A728-A9AD791A1E66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECBF2F5E-E217-4D4B-89EF-F7F9989E738F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBF2F5E-E217-4D4B-89EF-F7F9989E738F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBF2F5E-E217-4D4B-89EF-F7F9989E738F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBF2F5E-E217-4D4B-89EF-F7F9989E738F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DF70BB-24A2-4C62-9D59-988B75107016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DF70BB-24A2-4C62-9D59-988B75107016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DF70BB-24A2-4C62-9D59-988B75107016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DF70BB-24A2-4C62-9D59-988B75107016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C532E8F2-8FC6-4932-A728-A9AD791A1E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C532E8F2-8FC6-4932-A728-A9AD791A1E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C532E8F2-8FC6-4932-A728-A9AD791A1E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C532E8F2-8FC6-4932-A728-A9AD791A1E66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECBF2F5E-E217-4D4B-89EF-F7F9989E738F} = {DCCFDB0F-6B05-4181-9189-2E0CD3FCD510}
+		{22DF70BB-24A2-4C62-9D59-988B75107016} = {F3073CD3-FEFA-4B1E-8EF1-4F7C2923B603}
+		{C532E8F2-8FC6-4932-A728-A9AD791A1E66} = {DCCFDB0F-6B05-4181-9189-2E0CD3FCD510}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA96E5A9-2FE7-4CB3-8A83-7ABA743AD0AE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bhpg.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SimpleStockManager.core\\SimpleStockManager.core.csproj
+		SccProjectTopLevelParentUniqueName1 = SimpleStockManager.sln
+		SccProjectName1 = SimpleStockManager.core
+		SccLocalPath1 = SimpleStockManager.core
+		SccProjectUniqueName2 = SimpleStockManager.Executer\\SimpleStockManager.Executer.csproj
+		SccProjectTopLevelParentUniqueName2 = SimpleStockManager.sln
+		SccProjectName2 = SimpleStockManager.Executer
+		SccLocalPath2 = SimpleStockManager.Executer
+		SccProjectUniqueName3 = SimpleStockManager\\SimpleStockManager.csproj
+		SccProjectTopLevelParentUniqueName3 = SimpleStockManager.sln
+		SccProjectName3 = SimpleStockManager
+		SccLocalPath3 = SimpleStockManager
+	EndGlobalSection
+EndGlobal
