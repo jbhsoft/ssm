@@ -30,5 +30,6 @@ dexter4536@gmail.com
 
 I wonder if there anyone who uses this, I just have a curiosity that.
 
-## It all starts at http://ssm.bhsoft.co.kr
+## 사용법
+http://ssm.bhsoft.co.kr
 
