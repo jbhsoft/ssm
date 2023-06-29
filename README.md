@@ -1,7 +1,7 @@
 # Simple Stock Manager
 Anyone can use it for free, if you want.
 
-It's no exaggeration to say that half of this code was made on github.
+Because it's not an exaggeration to say that half of this code was made by github.
 
 Just one request...
 
